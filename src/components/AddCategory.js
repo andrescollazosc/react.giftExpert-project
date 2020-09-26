@@ -18,6 +18,7 @@ export const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <p>{ inputValue }</p>
       <div className="container-search">
         <input type="text" value={inputValue} onChange={handleInputChange} />
       </div>

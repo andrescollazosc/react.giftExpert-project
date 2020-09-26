@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GitfGrid /> should be catch the snapshot 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon
+  </h3>
+  <Component />
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing <GitfGrid /> should be show item when images is loaded 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://mundoloco/imagen.gif"
+    />
+    <GifGridItem
+      id="DFC"
+      key="DFC"
+      title="Otra cosa ¿"
+      url="https://mundoloco/imagen_1.gif"
+    />
+  </div>
+</Fragment>
+`;
